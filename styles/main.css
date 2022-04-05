@@ -1,0 +1,150 @@
+body{
+    margin: 0%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card{
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #efefef;
+    box-shadow: 0 0.1rem 0.3rem;
+    overflow: hidden;
+    
+}
+
+.perro{
+    width: 100%;
+    height: 200px;  
+}
+
+.container_mia{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container_mia div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px #20FCF2   dashed;  
+    position: relative;
+    top: -100px;
+    left: 75px;
+    animation-name: girar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 1s;
+    
+}
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+ .container_mia img{
+    width: 150px;
+    height: 150px;
+    border: 0.5px white solid;
+    border-radius: 50%; 
+    position: relative;
+    top: -95px; 
+    right: 82px;
+
+}
+
+.card h1{
+    text-align: center;
+    font-family:'Lora', serif;
+    font-size: 35px;
+    position: relative;
+    top: -105px;
+    color: #545454;
+
+}
+.linea{
+    position: relative;
+    top: -127px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card .pet{
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 28px;
+    color: #545454;
+    position: relative;
+    top: -149px;
+}
+.map{
+    width: 30px;
+    height: 20px;
+    float: left;
+    right:-60px;
+    position: relative;
+    top: -168px;
+}
+.home{
+    width: 30px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: -168px;
+    left: -190px;
+}
+.p_map{
+    font-family:'MuseoModerno', cursive;
+    font-size: 17px;
+    float: left;
+    position: relative;
+    top: -186px;
+    left:60px;
+}
+.p_home{
+    font-family:'MuseoModerno', cursive;
+    font-size: 17px;
+    float: right;
+    position: relative;
+    top: -186px;
+    left:-10px;
+}
+button{
+    font-family:'Lora', serif;
+    font-size: 30px;
+    color: #545454;
+    width: 100%;
+    height: 70px;
+    background-color: #20FCF2;
+    position: relative;
+    top: -130px;
+    border: 0;
+}
+button:hover{
+    color: #efefef;
+    cursor: pointer;
+}
+
+#respuesta{
+    font-family:'Lora', serif;
+    font-size: 22px;
+    color: #545454;
+    position: relative;
+    top: -115px;
+    left: 60px;
+
+}
+
